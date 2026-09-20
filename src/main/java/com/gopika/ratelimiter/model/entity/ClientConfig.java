@@ -8,7 +8,7 @@ public class ClientConfig {
 
     @Id
     @GeneratedValue
-    private long id;
+    private Long id;
 
     @Column(nullable = false, unique = true)
     private String clientId;
